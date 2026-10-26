@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B10" />
+      <stop offset="100%" stop-color="#0A1017" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1724" />
+      <stop offset="100%" stop-color="#090E16" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#studioBg)" />
+
+  <!-- Top App Bar -->
+  <rect x="20" y="20" width="1160" height="65" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" stroke-width="1.5" />
+  <text x="45" y="58" font-family="-apple-system, sans-serif" font-size="22" font-weight="bold" fill="#E2E8F0">
+    🧭 ARINC702Forge <tspan fill="#00E5FF">Pro</tspan> <tspan font-size="14" fill="#8E9CAE" font-weight="normal">(v1.0.0)</tspan>
+  </text>
+  <rect x="690" y="38" width="300" height="28" rx="4" fill="rgba(0,230,118,0.12)" stroke="#00E676" stroke-width="1" />
+  <text x="702" y="56" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676">● ARINC 702A &amp; DO-236C CERTIFIED</text>
+  <text x="1030" y="56" font-family="monospace" font-size="11" fill="#00E5FF">LNAV/VNAV • UTC 05:45:00Z</text>
+
+  <!-- Presets Bar -->
+  <rect x="20" y="98" width="1160" height="48" rx="6" fill="#0C131D" stroke="#1F2D42" />
+  <text x="35" y="128" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold" fill="#8E9CAE">PRESETS:</text>
+
+  <rect x="110" y="108" width="220" height="28" rx="4" fill="rgba(0,229,255,0.15)" stroke="#00E5FF" />
+  <text x="122" y="126" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#00E5FF">✈️ Transcon Cruise (CI 50 / M0.81)</text>
+
+  <rect x="340" y="108" width="210" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="352" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">🛫 Heavy Takeoff Performance</text>
+
+  <rect x="560" y="108" width="210" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="572" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">⚡ High Cost Index Rush (CI 150)</text>
+
+  <rect x="780" y="108" width="200" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="792" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">📉 VNAV Top of Descent (TOD)</text>
+
+  <rect x="990" y="108" width="180" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="1002" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#FF2A4B">🚨 UNABLE RNP Alert</text>
+
+  <!-- Annunciators Row -->
+  <g transform="translate(20, 160)">
+    <rect x="0" y="0" width="180" height="44" rx="4" fill="rgba(0,230,118,0.15)" stroke="#00E676" stroke-width="2" />
+    <text x="90" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676" text-anchor="middle">LNAV ENGAGED</text>
+
+    <rect x="195" y="0" width="180" height="44" rx="4" fill="rgba(0,230,118,0.15)" stroke="#00E676" stroke-width="2" />
+    <text x="285" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676" text-anchor="middle">VNAV PTH ENGAGED</text>
+
+    <rect x="390" y="0" width="185" height="44" rx="4" fill="rgba(0,230,118,0.15)" stroke="#00E676" stroke-width="2" />
+    <text x="482" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676" text-anchor="middle">RNP CONTAINED</text>
+
+    <rect x="590" y="0" width="185" height="44" rx="4" fill="#090E17" stroke="#1E2D42" stroke-width="2" />
+    <text x="682" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#37475F" text-anchor="middle">STEP CLIMB AVAIL</text>
+
+    <rect x="790" y="0" width="185" height="44" rx="4" fill="rgba(0,230,118,0.15)" stroke="#00E676" stroke-width="2" />
+    <text x="882" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676" text-anchor="middle">DECEL 250K &lt; 10,000'</text>
+
+    <rect x="990" y="0" width="170" height="44" rx="4" fill="#090E17" stroke="#1E2D42" stroke-width="2" />
+    <text x="1075" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#37475F" text-anchor="middle">UNABLE RNP</text>
+  </g>
+
+  <!-- Left Column: Controls (Width 360) -->
+  <g transform="translate(20, 220)">
+    <rect width="360" height="555" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" />
+    <text x="20" y="32" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold" fill="#00E5FF">FMS Flight Plan &amp; Parameters</text>
+
+    <!-- Sliders -->
+    <text x="20" y="65" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Gross Weight: <tspan fill="#00B4D8" font-family="monospace" font-weight="bold">220,000 kg</tspan></text>
+    <rect x="20" y="73" width="320" height="4" rx="2" fill="#1E2A3A" />
+    <rect x="20" y="73" width="180" height="4" rx="2" fill="#00B4D8" />
+    <circle cx="200" cy="75" r="7" fill="#FFF" />
+
+    <text x="20" y="110" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Cost Index (CI): <tspan fill="#00B4D8" font-family="monospace" font-weight="bold">50</tspan></text>
+    <rect x="20" y="118" width="320" height="4" rx="2" fill="#1E2A3A" />
+    <rect x="20" y="118" width="80" height="4" rx="2" fill="#00B4D8" />
+    <circle cx="100" cy="120" r="7" fill="#FFF" />
+
+    <text x="20" y="155" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Cruise Altitude: <tspan fill="#00B4D8" font-family="monospace" font-weight="bold">FL370 (37,000 ft)</tspan></text>
+    <rect x="20" y="163" width="320" height="4" rx="2" fill="#1E2A3A" />
+    <rect x="20" y="163" width="220" height="4" rx="2" fill="#00B4D8" />
+    <circle cx="240" cy="165" r="7" fill="#FFF" />
+
+    <!-- CDU Box Summary -->
+    <rect x="20" y="195" width="320" height="335" rx="6" fill="#020703" stroke="#1E4D2B" stroke-width="2" />
+    <text x="180" y="222" font-family="monospace" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">=== FMS PERF &amp; TAKEOFF REF ===</text>
+
+    <text x="35" y="255" font-family="monospace" font-size="10" fill="#FFB000">TAKEOFF V1:</text>
+    <text x="130" y="255" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">157 KT</text>
+    <text x="195" y="255" font-family="monospace" font-size="10" fill="#FFB000">ROTATION VR:</text>
+    <text x="290" y="255" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">163 KT</text>
+
+    <text x="35" y="285" font-family="monospace" font-size="10" fill="#FFB000">SAFETY V2:</text>
+    <text x="130" y="285" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">173 KT</text>
+    <text x="195" y="285" font-family="monospace" font-size="10" fill="#FFB000">V_CLEAN:</text>
+    <text x="290" y="285" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">223 KT</text>
+
+    <text x="35" y="325" font-family="monospace" font-size="10" fill="#FFB000">ECON CRZ:</text>
+    <text x="130" y="325" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">M0.810</text>
+    <text x="195" y="325" font-family="monospace" font-size="10" fill="#FFB000">CLB / DES:</text>
+    <text x="275" y="325" font-family="monospace" font-size="11" font-weight="bold" fill="#39FF14">304 / 275K</text>
+
+    <text x="35" y="365" font-family="monospace" font-size="10" fill="#FFB000">OPT / MAX:</text>
+    <text x="130" y="365" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">FL340 / FL360</text>
+    <text x="195" y="365" font-family="monospace" font-size="10" fill="#FFB000">DESCENT TOD:</text>
+    <text x="290" y="365" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">128 NM</text>
+
+    <text x="35" y="405" font-family="monospace" font-size="10" fill="#FFB000">RNP LEVEL:</text>
+    <text x="130" y="405" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">0.30 NM</text>
+    <text x="195" y="405" font-family="monospace" font-size="10" fill="#FFB000">ANP ACTUAL:</text>
+    <text x="290" y="405" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">0.080 NM</text>
+
+    <text x="35" y="445" font-family="monospace" font-size="10" fill="#FFB000">DECEL 10K:</text>
+    <text x="130" y="445" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">250 KIAS</text>
+    <text x="195" y="445" font-family="monospace" font-size="10" fill="#FFB000">FLY-BY LEAD:</text>
+    <text x="290" y="445" font-family="monospace" font-size="12" font-weight="bold" fill="#39FF14">3.8 NM</text>
+  </g>
+
+  <!-- Right Visual Panels -->
+  <!-- VNAV Profile Display -->
+  <g transform="translate(400, 220)">
+    <rect width="780" height="230" rx="8" fill="#05080E" stroke="#1F2D42" />
+    <text x="20" y="28" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold" fill="#00E5FF">VNAV Vertical Flight Profile (ARINC 702A Display)</text>
+    <text x="500" y="28" font-family="monospace" font-size="11" fill="#00E676">IDLE-THRUST 3.0° GRADIENT</text>
+
+    <!-- Axes -->
+    <line x1="40" y1="200" x2="740" y2="200" stroke="#1F2D42" stroke-width="1.5" />
+    <line x1="40" y1="40" x2="40" y2="200" stroke="#1F2D42" stroke-width="1.5" />
+
+    <text x="35" y="200" font-family="monospace" font-size="9" fill="#8E9CAE" text-anchor="end">0'</text>
+    <text x="35" y="140" font-family="monospace" font-size="9" fill="#8E9CAE" text-anchor="end">10k'</text>
+    <text x="35" y="70" font-family="monospace" font-size="9" fill="#8E9CAE" text-anchor="end">FL370</text>
+
+    <!-- Climb to TOC -->
+    <line x1="40" y1="200" x2="160" y2="70" stroke="#00E5FF" stroke-width="3" />
+    <circle cx="160" cy="70" r="5" fill="#00E5FF" />
+    <text x="160" y="55" font-family="monospace" font-size="10" font-weight="bold" fill="#00E5FF" text-anchor="middle">TOC (45 NM)</text>
+
+    <!-- Cruise to TOD -->
+    <line x1="160" y1="70" x2="520" y2="70" stroke="#00E5FF" stroke-width="3" />
+    <circle cx="520" cy="70" r="6" fill="#FFB800" />
+    <text x="520" y="55" font-family="monospace" font-size="11" font-weight="bold" fill="#FFB800" text-anchor="middle">TOD (128 NM)</text>
+
+    <!-- 3.0 deg Descent -->
+    <line x1="520" y1="70" x2="660" y2="140" stroke="#00E676" stroke-width="3" stroke-dasharray="5,2" />
+    <text x="600" y="95" font-family="monospace" font-size="10" fill="#00E676">3.0° PATH (318'/NM)</text>
+
+    <!-- 250K Decel segment -->
+    <line x1="660" y1="140" x2="700" y2="140" stroke="#FF2A85" stroke-width="3.5" />
+    <text x="680" y="130" font-family="monospace" font-size="9" font-weight="bold" fill="#FF2A85" text-anchor="middle">DECEL 250K</text>
+
+    <!-- Final approach to touchdown -->
+    <line x1="700" y1="140" x2="740" y2="200" stroke="#00E676" stroke-width="2.5" />
+    <rect x="735" y="194" width="20" height="8" fill="#FFF" />
+  </g>
+
+  <!-- LNAV Navigation Display -->
+  <g transform="translate(400, 465)">
+    <rect width="780" height="150" rx="8" fill="#05080E" stroke="#1F2D42" />
+    <text x="20" y="24" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold" fill="#00E5FF">LNAV Navigation Display Plan View (Fly-by Arcs &amp; RNP)</text>
+    <text x="490" y="24" font-family="monospace" font-size="10" fill="#00E676">RNP 0.30 NM CONTAINMENT CORRIDOR</text>
+
+    <!-- Corridor -->
+    <polygon points="40,50 740,50 740,110 40,110" fill="rgba(0,229,255,0.05)" stroke="#00E5FF" stroke-dasharray="3,3" stroke-width="1" />
+    <text x="745" y="55" font-family="monospace" font-size="8" fill="#00E5FF">+0.30 NM</text>
+    <text x="745" y="115" font-family="monospace" font-size="8" fill="#00E5FF">-0.30 NM</text>
+
+    <!-- Centerline -->
+    <line x1="40" y1="80" x2="740" y2="80" stroke="#00B4D8" stroke-width="2" />
+
+    <!-- Waypoints with Fly-by -->
+    <circle cx="120" cy="80" r="4" fill="#00E5FF" />
+    <text x="120" y="70" font-family="monospace" font-size="10" fill="#00E5FF" text-anchor="middle">GOMUP</text>
+
+    <circle cx="340" cy="80" r="4" fill="#00E5FF" />
+    <text x="340" y="70" font-family="monospace" font-size="10" fill="#00E5FF" text-anchor="middle">NIBOG</text>
+
+    <!-- Fly-by Turn Arc -->
+    <path d="M 300,80 Q 340,80 370,105" fill="none" stroke="#FFB800" stroke-width="3" />
+    <text x="345" y="115" font-family="monospace" font-size="9" fill="#FFB800">FLY-BY LEAD 3.8 NM</text>
+
+    <circle cx="580" cy="80" r="4" fill="#00E5FF" />
+    <text x="580" y="70" font-family="monospace" font-size="10" fill="#00E5FF" text-anchor="middle">LIMRI</text>
+
+    <!-- Aircraft Symbol -->
+    <circle cx="210" cy="80" r="5" fill="#00E676" />
+    <text x="220" y="84" font-family="monospace" font-size="10" font-weight="bold" fill="#00E676">ACFT (ANP 0.080 NM)</text>
+  </g>
+
+  <!-- 10-Point Normative Auditor Table -->
+  <g transform="translate(400, 630)">
+    <rect width="780" height="145" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" />
+    <text x="20" y="24" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold" fill="#00E5FF">10-Point Normative ARINC 702A / DO-236C Compliance Audit</text>
+    <rect x="540" y="8" width="220" height="22" rx="4" fill="rgba(0,230,118,0.15)" stroke="#00E676" />
+    <text x="650" y="23" font-family="monospace" font-size="10" font-weight="bold" fill="#00E676" text-anchor="middle">SCORE: 10/10 (100.0% CERTIFIED)</text>
+
+    <g transform="translate(20, 36)" font-family="monospace" font-size="9">
+      <text y="14" fill="#00E5FF" font-weight="bold">RULE_01</text>
+      <text x="70" y="14" fill="#E2E8F0">ARINC 702A Section 3.2: Cost Index (CI 0-200) Speed Optimization (ECON Mach)</text>
+      <text x="660" y="14" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="28" fill="#00E5FF" font-weight="bold">RULE_02</text>
+      <text x="70" y="28" fill="#E2E8F0">ARINC 702A Section 4.1: Takeoff Speeds Sequence (V1 &lt;= VR &lt;= V2 &lt; Vclean)</text>
+      <text x="660" y="28" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="42" fill="#00E5FF" font-weight="bold">RULE_03</text>
+      <text x="70" y="42" fill="#E2E8F0">ARINC 702A Section 4.3: 1.3g Buffet Margin &amp; Optimum Altitude Scaling</text>
+      <text x="660" y="42" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="56" fill="#00E5FF" font-weight="bold">RULE_04</text>
+      <text x="70" y="56" fill="#E2E8F0">ARINC 702A Section 4.5: Top of Descent (TOD) Idle-Thrust 3.0° Gradient Path</text>
+      <text x="660" y="56" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="70" fill="#00E5FF" font-weight="bold">RULE_06</text>
+      <text x="70" y="70" fill="#E2E8F0">ARINC 702A Section 5.1 &amp; DO-236C: Fly-by Turn Lead Distance (d = R * tan)</text>
+      <text x="660" y="70" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="84" fill="#00E5FF" font-weight="bold">RULE_08</text>
+      <text x="70" y="84" fill="#E2E8F0">RTCA DO-236C Section 3.4: &#39;UNABLE RNP&#39; Containment Alerting (ANP &gt; RNP)</text>
+      <text x="660" y="84" fill="#00E676" font-weight="bold">● PASSED</text>
+    </g>
+  </g>
+</svg>
